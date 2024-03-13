@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_dashboard_ui_app/widgets/activity_details_card.dart';
 import 'package:responsive_dashboard_ui_app/widgets/header_widget.dart';
 
 class DashboardWidget extends StatelessWidget {
@@ -10,6 +11,8 @@ class DashboardWidget extends StatelessWidget {
       children: [
         SizedBox(height: 18),
         HeaderWidget(),
+        SizedBox(height: 18),
+        ActivityDetailsCard(),
       ]
     );
   }
