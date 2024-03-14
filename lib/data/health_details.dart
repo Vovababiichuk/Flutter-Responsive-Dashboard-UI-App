@@ -9,7 +9,7 @@ class HealthDetails {
     ),
     HealthModel(
       icon: 'assets/icons/steps.png',
-      value: '10,200',
+      value: '10,980',
       title: 'Steps',
     ),
     HealthModel(
@@ -19,7 +19,7 @@ class HealthDetails {
     ),
     HealthModel(
       icon: 'assets/icons/sleep.png',
-      value: '7',
+      value: '7h46m',
       title: 'Hours',
     )
   ];
