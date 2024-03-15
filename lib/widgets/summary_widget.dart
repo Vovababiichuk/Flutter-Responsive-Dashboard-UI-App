@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_dashboard_ui_app/widgets/pie_chart_widget.dart';
+import 'package:responsive_dashboard_ui_app/widgets/scheduled_widget.dart';
 import 'package:responsive_dashboard_ui_app/widgets/symmary_details_widget.dart';
 
 class SummaryWidget extends StatelessWidget {
@@ -15,7 +16,12 @@ class SummaryWidget extends StatelessWidget {
           'Summary',style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
         ),
         SizedBox(height: 16),
-        SummaryDetails(),
+        Padding(
+          padding: EdgeInsets.only(right: 20.0),
+          child: SummaryDetails(),
+        ),
+        SizedBox(height: 40),
+        Scheduled(),
       ],
     );
   }
